@@ -1,0 +1,80 @@
+.centeritem{  
+        width: 70vw;
+        height: 70vh;
+        outline: solid 1px black;
+        display: flex;
+        margin-top: 15vh;
+        margin-left: 7vw;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 5px 10px 5px 10px #888888;
+        border-radius: 55px;
+        padding: 5%;
+}
+.centeritem1{
+    
+    width: 80vw;
+    height: 60vh;
+    outline: solid 1px black;
+    display: flex;
+    margin-top: 15vh;
+    margin-left: 10vw;
+    justify-content: flex-start;
+    box-shadow: 5px 10px 5px 10px #888888;
+    border-radius: 55px;
+    padding: 5%;
+
+}
+.addbtn{
+    margin-left: 45vw;
+    padding: 1% 0 1% 14%;
+}
+.logincontainer{
+    width: 40vw;
+    height: 55vh;
+    outline: solid 1px black;
+    display: flex;
+    margin-top: 15vh;
+    margin-left: 25vw;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 10px 5px 10px #888888;
+    border-radius: 55px;
+    padding: 5%;
+}
+.Registercontainer{
+    width: 40vw;
+    height: 70vh;
+    outline: solid 1px black;
+    display: flex;
+    margin-top: 15vh;
+    margin-left: 25vw;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 10px 5px 10px #888888;
+    border-radius: 55px;
+    padding: 5%;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Homebtn{
+    margin-top: 10vh;
+    margin-left: 2vw;
+    width: 20vw;
+    height: 10vh;
+    outline: solid 1px black;
+    padding: 6.5% 0% 0 10%;
+
+}
+.Total{
+    width: 15vw;
+    height: 10vh;
+    font-size: medium;
+    font-family: cursive;
+}
+.tcontent{
+    height: 240px;
+    overflow: auto;
+    
+}

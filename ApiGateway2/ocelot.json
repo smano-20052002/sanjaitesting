@@ -1,0 +1,123 @@
+{
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/api/FetchMovie",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5059
+                }
+            ],
+            "UpstreamPathTemplate": "/apiGateway/FetchMovie",
+            "UpstreamHttpMethod": [
+                "GET"
+            ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/FetchMovie/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5059
+                }
+            ],
+            "UpstreamPathTemplate": "/apiGateway/FetchMovie/{id}",
+            "UpstreamHttpMethod": [
+                "GET"
+            ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/AddMovie",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5224
+                }
+            ],
+            "UpstreamPathTemplate": "/apiGateway/AddMovie",
+            "UpstreamHttpMethod": [
+                "POST"
+            ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/CheckLogin",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5166
+                }
+            ],
+            "UpstreamPathTemplate": "/apiGateway/CheckLogin",
+            "UpstreamHttpMethod": [
+                "POST"
+            ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/Register",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5166
+                }
+            ],
+            "UpstreamPathTemplate": "/apiGateway/Register",
+            "UpstreamHttpMethod": [
+                "POST"
+            ]
+        },
+
+        {
+            "DownstreamPathTemplate": "/api/UpdateMovie",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5273
+                }
+            ],
+            "UpstreamPathTemplate": "/apiGateway/UpdateMovie",
+            "UpstreamHttpMethod": [
+                "PUT"
+            ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/TotalMovie",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5059
+                }
+            ],
+            "UpstreamPathTemplate": "/apiGateway/TotalMovie",
+            "UpstreamHttpMethod": [
+                "GET"
+            ]
+        },
+        
+
+        {
+            "DownstreamPathTemplate": "/api/DeleteMovie/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5225
+                }
+            ],
+            "UpstreamPathTemplate": "/apiGateway/DeleteMovie/{id}",
+            "UpstreamHttpMethod": [
+                "DELETE"
+            ]
+        }
+
+    ],
+    "GlobalConfiguration": {
+        "BaseUrl": "https://localhost:5245/"
+    }
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteWebapi", "DeleteWebapi.csproj", "{39EC6CB8-76F1-4F93-94BF-761F28096925}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39EC6CB8-76F1-4F93-94BF-761F28096925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39EC6CB8-76F1-4F93-94BF-761F28096925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39EC6CB8-76F1-4F93-94BF-761F28096925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39EC6CB8-76F1-4F93-94BF-761F28096925}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD3111D2-AD6C-4B0A-8E27-6C2C2A734569}
+	EndGlobalSection
+EndGlobal
